@@ -1,0 +1,26 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.12",
+  "startedAt": "2025-04-18T11:51:03.088768Z",
+  "program": "train-model.ipynb",
+  "email": "yildizz.nisan@gmail.com",
+  "root": "/content/drive/MyDrive/DI725/DI725-assignment2",
+  "host": "99547ded7286",
+  "executable": "/usr/bin/python3",
+  "colab": "https://colab.research.google.com/notebook#fileId=1ptqqoTyd6ZUtgfLNS8wJrCuFMlhoz4Ib",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "disk": {
+    "/": {
+      "total": "115658190848",
+      "used": "39867985920"
+    }
+  },
+  "memory": {
+    "total": "13608370176"
+  },
+  "cpu": {
+    "count": 1,
+    "countLogical": 2
+  }
+}

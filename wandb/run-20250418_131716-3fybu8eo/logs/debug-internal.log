@@ -1,0 +1,7 @@
+{"time":"2025-04-18T13:17:17.412522706Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250418_131716-3fybu8eo/logs/debug-core.log"}
+{"time":"2025-04-18T13:17:17.573952013Z","level":"INFO","msg":"created new stream","id":"3fybu8eo"}
+{"time":"2025-04-18T13:17:17.575126567Z","level":"INFO","msg":"stream: started","id":"3fybu8eo"}
+{"time":"2025-04-18T13:17:17.575141828Z","level":"INFO","msg":"writer: Do: started","stream_id":"3fybu8eo"}
+{"time":"2025-04-18T13:17:17.57517771Z","level":"INFO","msg":"handler: started","stream_id":"3fybu8eo"}
+{"time":"2025-04-18T13:17:17.575202303Z","level":"INFO","msg":"sender: started","stream_id":"3fybu8eo"}
+{"time":"2025-04-18T13:17:17.893413197Z","level":"INFO","msg":"Starting system monitor"}

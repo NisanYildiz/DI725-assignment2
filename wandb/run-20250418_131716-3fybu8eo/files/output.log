@@ -1,0 +1,12 @@
+Loading annotations...
+Found 8 categories: {0: 'Human', 1: 'Car', 2: 'Truck', 3: 'Van', 4: 'Motorbike', 5: 'Bicycle', 6: 'Bus', 7: 'Trailer'}
+Loading YOLOS image processor from hustvl/yolos-small
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Starting training...

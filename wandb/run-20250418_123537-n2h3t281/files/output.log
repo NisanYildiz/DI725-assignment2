@@ -1,0 +1,61 @@
+Loading annotations...
+Found 8 categories: {0: 'Human', 1: 'Car', 2: 'Truck', 3: 'Van', 4: 'Motorbike', 5: 'Bicycle', 6: 'Bus', 7: 'Trailer'}
+Loading YOLOS image processor from hustvl/yolos-small
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning:
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+Loading YOLOS image processor from hustvl/yolos-small
+<ipython-input-29-21a3ba9d8691>:8: UserWarning: Argument(s) 'value' are not valid for transform PadIfNeeded
+  A.PadIfNeeded(
+Loading YOLOS image processor from hustvl/yolos-small
+<ipython-input-30-66621dad7a0c>:8: UserWarning: Argument(s) 'value' are not valid for transform PadIfNeeded
+  A.PadIfNeeded(
+<ipython-input-30-66621dad7a0c>:21: UserWarning: Argument(s) 'value' are not valid for transform PadIfNeeded
+  A.PadIfNeeded(
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS image processor from hustvl/yolos-small
+<ipython-input-31-3abf31e8d9f9>:9: UserWarning: Argument(s) 'pad_value' are not valid for transform PadIfNeeded
+  A.PadIfNeeded(
+<ipython-input-31-3abf31e8d9f9>:22: UserWarning: Argument(s) 'pad_value' are not valid for transform PadIfNeeded
+  A.PadIfNeeded(
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS image processor from hustvl/yolos-small
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS model from hustvl/yolos-small
+Loading YOLOS model from hustvl/yolos-small
+Loading YOLOS model from hustvl/yolos-small
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+4.51.1
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Starting training...
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+Initializing wandb...

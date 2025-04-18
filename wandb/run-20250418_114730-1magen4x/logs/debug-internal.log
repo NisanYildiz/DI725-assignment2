@@ -1,0 +1,24 @@
+{"time":"2025-04-18T11:47:30.256581749Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250418_114730-1magen4x/logs/debug-core.log"}
+{"time":"2025-04-18T11:47:30.476839967Z","level":"INFO","msg":"created new stream","id":"1magen4x"}
+{"time":"2025-04-18T11:47:30.477761964Z","level":"INFO","msg":"stream: started","id":"1magen4x"}
+{"time":"2025-04-18T11:47:30.477772146Z","level":"INFO","msg":"writer: Do: started","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:47:30.477815563Z","level":"INFO","msg":"handler: started","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:47:30.47784998Z","level":"INFO","msg":"sender: started","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:47:30.773038239Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T11:47:32.703987928Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T11:48:48.56414519Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T11:48:48.570234098Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T11:49:35.719507226Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T11:49:35.760292869Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T11:50:12.470789987Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T11:50:12.577707741Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-18T11:51:02.437251679Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-18T11:51:02.521983404Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T11:51:02.52218427Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T11:51:02.929390317Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T11:51:03.059947308Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-18T11:51:03.073635059Z","level":"INFO","msg":"stream: closing","id":"1magen4x"}
+{"time":"2025-04-18T11:51:03.074436563Z","level":"INFO","msg":"handler: closed","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:51:03.074485771Z","level":"INFO","msg":"writer: Close: closed","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:51:03.074674072Z","level":"INFO","msg":"sender: closed","stream_id":"1magen4x"}
+{"time":"2025-04-18T11:51:03.080429883Z","level":"INFO","msg":"stream: closed","id":"1magen4x"}
