@@ -1,0 +1,29 @@
+Loading annotations...
+Found 8 categories: {0: 'Human', 1: 'Car', 2: 'Truck', 3: 'Van', 4: 'Motorbike', 5: 'Bicycle', 6: 'Bus', 7: 'Trailer'}
+Loading YOLOS image processor from hustvl/yolos-small
+/usr/local/lib/python3.11/dist-packages/albumentations/core/validation.py:87: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Initializing the Trainer...
+
+==================================================
+Starting training...
+Number of epochs: 50
+Training batch size: 4
+Evaluation steps: Every 100 steps
+Saving steps: Every 2000 steps
+Early stopping patience: 5 evaluations
+==================================================
+
+Step 1 (Epoch 0.00) - Training loss: 7.51800
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 2. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 20 (Epoch 0.05) - Training loss: 7.34290
+Step 40 (Epoch 0.10) - Training loss: 7.12010
+Initializing wandb...

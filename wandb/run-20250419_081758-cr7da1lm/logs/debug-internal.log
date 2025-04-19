@@ -1,0 +1,17 @@
+{"time":"2025-04-19T08:18:01.024211193Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250419_081758-cr7da1lm/logs/debug-core.log"}
+{"time":"2025-04-19T08:18:01.359382861Z","level":"INFO","msg":"created new stream","id":"cr7da1lm"}
+{"time":"2025-04-19T08:18:01.359802889Z","level":"INFO","msg":"stream: started","id":"cr7da1lm"}
+{"time":"2025-04-19T08:18:01.35983664Z","level":"INFO","msg":"writer: Do: started","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:18:01.359875162Z","level":"INFO","msg":"sender: started","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:18:01.359877802Z","level":"INFO","msg":"handler: started","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:18:01.859251321Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T08:18:32.913486957Z","level":"WARN","msg":"handler: ignoring partial history record","step":1,"current":2}
+{"time":"2025-04-19T08:27:25.080387001Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T08:27:25.080596159Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T08:27:26.080375713Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.466479006,"progress":"898B/898B"},{"desc":"uploading config.yaml","runtime_seconds":0.189996951,"progress":"10.7KB/10.7KB"}],"total_operations":2}}
+{"time":"2025-04-19T08:27:26.926284776Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T08:27:27.188332684Z","level":"INFO","msg":"stream: closing","id":"cr7da1lm"}
+{"time":"2025-04-19T08:27:27.188447624Z","level":"INFO","msg":"handler: closed","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:27:27.18847199Z","level":"INFO","msg":"sender: closed","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:27:27.188473734Z","level":"INFO","msg":"writer: Close: closed","stream_id":"cr7da1lm"}
+{"time":"2025-04-19T08:27:27.189438Z","level":"INFO","msg":"stream: closed","id":"cr7da1lm"}

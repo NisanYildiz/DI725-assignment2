@@ -1,0 +1,210 @@
+Loading annotations...
+Found 8 categories: {0: 'Human', 1: 'Car', 2: 'Truck', 3: 'Van', 4: 'Motorbike', 5: 'Bicycle', 6: 'Bus', 7: 'Trailer'}
+Loading YOLOS image processor from hustvl/yolos-small
+/usr/local/lib/python3.11/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning:
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/albumentations/core/validation.py:87: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+Creating datasets...
+Train dataset size: 6892
+Validation dataset size: 1477
+Test dataset size: 1477
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Initializing the Trainer...
+
+==================================================
+Starting training...
+Number of epochs: 20
+Training batch size: 4
+Evaluation steps: Every 200 steps
+Saving steps: Every 2000 steps
+Early stopping patience: 4 evaluations
+==================================================
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Initializing the Trainer...
+
+==================================================
+Starting training...
+Number of epochs: 20
+Training batch size: 4
+Evaluation steps: Every 200 steps
+Saving steps: Every 2000 steps
+Early stopping patience: 4 evaluations
+==================================================
+
+Step 1 (Epoch 0.01) - Training loss: 7.90780
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 2. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 40 (Epoch 0.37) - Training loss: 6.99180
+Step 80 (Epoch 0.74) - Training loss: 3.35990
+Step 120 (Epoch 1.11) - Training loss: 1.92620
+Step 160 (Epoch 1.48) - Training loss: 1.69750
+Step 200 (Epoch 1.85) - Training loss: 1.62720
+
+=== Evaluation at Step 200 (Epoch 1.85) ===
+Eval eval_loss: 1.69576
+Eval eval_runtime: 152.79720
+Eval eval_samples_per_second: 9.66600
+Eval eval_steps_per_second: 2.42200
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 200 that is less than the current step 201. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 200 that is less than the current step 201. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 240 (Epoch 2.22) - Training loss: 1.58470
+Step 280 (Epoch 2.59) - Training loss: 1.56280
+Step 320 (Epoch 2.97) - Training loss: 1.50970
+Step 360 (Epoch 3.33) - Training loss: 1.48020
+Step 400 (Epoch 3.71) - Training loss: 1.45090
+
+=== Evaluation at Step 400 (Epoch 3.71) ===
+Eval eval_loss: 1.46743
+Eval eval_runtime: 30.07320
+Eval eval_samples_per_second: 49.11300
+Eval eval_steps_per_second: 12.30300
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 400 that is less than the current step 401. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 400 that is less than the current step 401. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 440 (Epoch 4.07) - Training loss: 1.43990
+Step 480 (Epoch 4.45) - Training loss: 1.45570
+Step 520 (Epoch 4.82) - Training loss: 1.40400
+Step 560 (Epoch 5.19) - Training loss: 1.35700
+Step 600 (Epoch 5.56) - Training loss: 1.37550
+
+=== Evaluation at Step 600 (Epoch 5.56) ===
+Eval eval_loss: 1.39662
+Eval eval_runtime: 29.98820
+Eval eval_samples_per_second: 49.25300
+Eval eval_steps_per_second: 12.33800
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 600 that is less than the current step 601. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 600 that is less than the current step 601. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 640 (Epoch 5.93) - Training loss: 1.36820
+Step 680 (Epoch 6.30) - Training loss: 1.36810
+Step 720 (Epoch 6.67) - Training loss: 1.36010
+Step 760 (Epoch 7.04) - Training loss: 1.32850
+Step 800 (Epoch 7.41) - Training loss: 1.33940
+
+=== Evaluation at Step 800 (Epoch 7.41) ===
+Eval eval_loss: 1.41129
+Eval eval_runtime: 30.09740
+Eval eval_samples_per_second: 49.07400
+Eval eval_steps_per_second: 12.29300
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 800 that is less than the current step 801. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 800 that is less than the current step 801. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 840 (Epoch 7.78) - Training loss: 1.35120
+Step 880 (Epoch 8.15) - Training loss: 1.29820
+Step 920 (Epoch 8.52) - Training loss: 1.32140
+Step 960 (Epoch 8.89) - Training loss: 1.33690
+Step 1000 (Epoch 9.26) - Training loss: 1.31010
+
+=== Evaluation at Step 1000 (Epoch 9.26) ===
+Eval eval_loss: 1.35929
+Eval eval_runtime: 29.93420
+Eval eval_samples_per_second: 49.34100
+Eval eval_steps_per_second: 12.36000
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1000 that is less than the current step 1001. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1000 that is less than the current step 1001. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 1040 (Epoch 9.63) - Training loss: 1.32260
+Step 1080 (Epoch 10.00) - Training loss: 1.32250
+Step 1120 (Epoch 10.37) - Training loss: 1.28560
+Step 1160 (Epoch 10.74) - Training loss: 1.28850
+Step 1200 (Epoch 11.11) - Training loss: 1.27620
+
+=== Evaluation at Step 1200 (Epoch 11.11) ===
+Eval eval_loss: 1.32635
+Eval eval_runtime: 30.09640
+Eval eval_samples_per_second: 49.07600
+Eval eval_steps_per_second: 12.29400
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1200 that is less than the current step 1201. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1200 that is less than the current step 1201. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 1240 (Epoch 11.48) - Training loss: 1.27250
+Step 1280 (Epoch 11.85) - Training loss: 1.24500
+Step 1320 (Epoch 12.22) - Training loss: 1.23780
+Step 1360 (Epoch 12.59) - Training loss: 1.24950
+Step 1400 (Epoch 12.97) - Training loss: 1.23000
+
+=== Evaluation at Step 1400 (Epoch 12.97) ===
+Eval eval_loss: 1.26416
+Eval eval_runtime: 30.08260
+Eval eval_samples_per_second: 49.09800
+Eval eval_steps_per_second: 12.29900
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1400 that is less than the current step 1401. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1400 that is less than the current step 1401. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 1440 (Epoch 13.33) - Training loss: 1.22420
+Step 1480 (Epoch 13.71) - Training loss: 1.21450
+Step 1520 (Epoch 14.07) - Training loss: 1.19870
+Step 1560 (Epoch 14.45) - Training loss: 1.21940
+Step 1600 (Epoch 14.82) - Training loss: 1.19290
+
+=== Evaluation at Step 1600 (Epoch 14.82) ===
+Eval eval_loss: 1.23374
+Eval eval_runtime: 30.13070
+Eval eval_samples_per_second: 49.02000
+Eval eval_steps_per_second: 12.28000
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1600 that is less than the current step 1601. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1600 that is less than the current step 1601. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 1640 (Epoch 15.19) - Training loss: 1.18460
+Step 1680 (Epoch 15.56) - Training loss: 1.19520
+Step 1720 (Epoch 15.93) - Training loss: 1.18550
+Step 1760 (Epoch 16.30) - Training loss: 1.17080
+Step 1800 (Epoch 16.67) - Training loss: 1.18810
+
+=== Evaluation at Step 1800 (Epoch 16.67) ===
+Eval eval_loss: 1.21538
+Eval eval_runtime: 30.07320
+Eval eval_samples_per_second: 49.11400
+Eval eval_steps_per_second: 12.30300
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1800 that is less than the current step 1801. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1800 that is less than the current step 1801. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 1840 (Epoch 17.04) - Training loss: 1.13850
+Step 1880 (Epoch 17.41) - Training loss: 1.15940
+Step 1920 (Epoch 17.78) - Training loss: 1.15350
+Step 1960 (Epoch 18.15) - Training loss: 1.13710
+Step 2000 (Epoch 18.52) - Training loss: 1.12550
+
+=== Evaluation at Step 2000 (Epoch 18.52) ===
+Eval eval_loss: 1.20350
+Eval eval_runtime: 30.03810
+Eval eval_samples_per_second: 49.17100
+Eval eval_steps_per_second: 12.31800
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2000 that is less than the current step 2001. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2000 that is less than the current step 2001. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Step 2040 (Epoch 18.89) - Training loss: 1.13990
+Step 2080 (Epoch 19.26) - Training loss: 1.12140
+Step 2120 (Epoch 19.63) - Training loss: 1.12360
+
+==================================================
+Training completed!
+Total steps: 2140
+Final training loss: 1.45783
+==================================================
+
+Model saved to yolos_finetuned/final_model
+
+Performing final evaluation...
+
+=== Evaluation at Step 2140 (Epoch 19.82) ===
+Eval eval_loss: 1.21375
+Eval eval_runtime: 21.00050
+Eval eval_samples_per_second: 47.61800
+Eval eval_steps_per_second: 11.90400
+
+==================================================
+Final evaluation results:
+eval_loss: 1.21375
+eval_runtime: 21.00050
+eval_samples_per_second: 47.61800
+eval_steps_per_second: 11.90400
+epoch: 19.81718
+==================================================
+
+Finishing wandb run...

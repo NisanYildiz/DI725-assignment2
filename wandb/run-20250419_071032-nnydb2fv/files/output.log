@@ -7,6 +7,12 @@ To authenticate with the Hugging Face Hub, create a token in your settings tab (
 You will be able to reuse this secret in all of your notebooks.
 Please note that authentication is recommended but still optional to access public models or datasets.
   warnings.warn(
+/usr/local/lib/python3.11/dist-packages/albumentations/core/validation.py:87: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+Creating datasets...
+Train dataset size: 26258
+Validation dataset size: 6565
+Loading YOLOS image processor from hustvl/yolos-small
 Creating datasets...
 Train dataset size: 26258
 Validation dataset size: 6565
@@ -19,81 +25,6 @@ Starting training...
 /usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
   warnings.warn(
 [34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS image processor from hustvl/yolos-small
-/usr/local/lib/python3.11/dist-packages/albumentations/core/validation.py:87: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
-  original_init(self, **validated_kwargs)
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-Loading YOLOS image processor from hustvl/yolos-small
-/usr/local/lib/python3.11/dist-packages/albumentations/core/validation.py:87: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
-  original_init(self, **validated_kwargs)
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
-  warnings.warn(
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
-Loading YOLOS image processor from hustvl/yolos-small
-Creating datasets...
-Train dataset size: 26258
-Validation dataset size: 6565
 Loading YOLOS model from hustvl/yolos-small
 Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
 - class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
@@ -108,6 +39,26 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 Starting training...
 /usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
   warnings.warn(
+Sample keys: dict_keys(['image_name', 'image_width:', 'image_height', 'platform', 'time', 'longtitude', 'latitude', 'altitude', 'linear_x', 'linear_y', 'linear_z', 'angle_phi', 'angle_theta', 'angle_psi', 'bbox'])
+Bbox type: <class 'list'>
+Bbox shape or structure: [{'top': 163, 'left': 1098, 'height': 185, 'width': 420, 'class': 1}, {'top': 421, 'left': 1128, 'height': 176, 'width': 393, 'class': 1}, {'top': 927, 'left': 1703, 'height': 153, 'width': 183, 'class': 0}]
+Sample keys: dict_keys(['pixel_values', 'labels'])
+Labels type: <class 'list'>
+Labels shape or structure: [{'size': tensor([800, 800]), 'image_id': tensor([0]), 'class_labels': tensor([1, 1]), 'boxes': tensor([[0.0013, 0.0005, 0.0012, 0.0005],
+        [0.0013, 0.0010, 0.0012, 0.0009]]), 'area': tensor([0.0884, 0.0967]), 'iscrowd': tensor([0, 0]), 'orig_size': tensor([640, 640])}]
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Starting training...
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Loading YOLOS model from hustvl/yolos-small
+Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
+- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
+- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
 Loading YOLOS model from hustvl/yolos-small
 Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
 - class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
@@ -119,10 +70,15 @@ Some weights of YolosForObjectDetection were not initialized from the model chec
 - class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
 - class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Initializing the Trainer...
+
+==================================================
 Starting training...
-Loading YOLOS model from hustvl/yolos-small
-Some weights of YolosForObjectDetection were not initialized from the model checkpoint at hustvl/yolos-small and are newly initialized because the shapes did not match:
-- class_labels_classifier.layers.2.bias: found shape torch.Size([92]) in the checkpoint and torch.Size([9]) in the model instantiated
-- class_labels_classifier.layers.2.weight: found shape torch.Size([92, 384]) in the checkpoint and torch.Size([9, 384]) in the model instantiated
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Starting training...
+Number of epochs: 50
+Training batch size: 4
+Evaluation steps: Every 2000 steps
+Saving steps: Every 2000 steps
+Early stopping patience: 5 evaluations
+==================================================
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(

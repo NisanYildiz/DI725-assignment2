@@ -1,0 +1,24 @@
+{"time":"2025-04-19T08:27:27.234210583Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250419_082725-6pf2y1zr/logs/debug-core.log"}
+{"time":"2025-04-19T08:27:27.554427718Z","level":"INFO","msg":"created new stream","id":"6pf2y1zr"}
+{"time":"2025-04-19T08:27:27.554890784Z","level":"INFO","msg":"stream: started","id":"6pf2y1zr"}
+{"time":"2025-04-19T08:27:27.554907815Z","level":"INFO","msg":"writer: Do: started","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:27:27.554932369Z","level":"INFO","msg":"sender: started","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:27:27.554938648Z","level":"INFO","msg":"handler: started","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:27:27.968141172Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T08:27:29.156822156Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T08:27:42.78794617Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T08:27:42.82837185Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T08:27:54.215567436Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T08:27:54.256339436Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T08:29:03.110905931Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T08:29:03.151406754Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T08:34:23.760509858Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T08:34:23.826360609Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T08:34:23.82648377Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T08:34:24.829367937Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.49793238,"progress":"742B/742B"},{"desc":"uploading config.yaml","runtime_seconds":0.205840638,"progress":"1.5KB/1.5KB"}],"total_operations":2}}
+{"time":"2025-04-19T08:34:25.586784419Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T08:34:25.823372899Z","level":"INFO","msg":"stream: closing","id":"6pf2y1zr"}
+{"time":"2025-04-19T08:34:25.823473637Z","level":"INFO","msg":"handler: closed","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:34:25.823500156Z","level":"INFO","msg":"writer: Close: closed","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:34:25.823519034Z","level":"INFO","msg":"sender: closed","stream_id":"6pf2y1zr"}
+{"time":"2025-04-19T08:34:25.824821894Z","level":"INFO","msg":"stream: closed","id":"6pf2y1zr"}
