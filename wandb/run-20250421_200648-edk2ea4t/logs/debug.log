@@ -1,0 +1,91 @@
+2025-04-21 20:06:48,126 INFO    MainThread:663 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-21 20:06:48,127 INFO    MainThread:663 [wandb_setup.py:_flush():67] Configure stats pid to 663
+2025-04-21 20:06:48,128 INFO    MainThread:663 [wandb_setup.py:_flush():67] Loading settings from /root/.config/wandb/settings
+2025-04-21 20:06:48,129 INFO    MainThread:663 [wandb_setup.py:_flush():67] Loading settings from /content/drive/MyDrive/DI725/DI725-assignment2/wandb/settings
+2025-04-21 20:06:48,129 INFO    MainThread:663 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-21 20:06:48,129 INFO    MainThread:663 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250421_200648-edk2ea4t/logs/debug.log
+2025-04-21 20:06:48,130 INFO    MainThread:663 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /content/drive/MyDrive/DI725/DI725-assignment2/wandb/run-20250421_200648-edk2ea4t/logs/debug-internal.log
+2025-04-21 20:06:48,130 INFO    MainThread:663 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7a8f60fc4fd0>
+2025-04-21 20:06:48,131 INFO    MainThread:663 [wandb_init.py:init():781] calling init triggers
+2025-04-21 20:06:48,131 INFO    MainThread:663 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'model_checkpoint': 'hustvl/yolos-small', 'batch_size': 4, 'learning_rate': 3e-05, 'epochs': 20, 'warmup_ratio': 0.05, 'grad_accumulation_steps': 16, 'effective_batch_size': 64, 'early_stopping_patience': 4, '_wandb': {}}
+2025-04-21 20:06:48,131 INFO    MainThread:663 [wandb_init.py:init():809] starting backend
+2025-04-21 20:06:48,131 INFO    MainThread:663 [wandb_init.py:init():813] sending inform_init request
+2025-04-21 20:06:48,139 INFO    MainThread:663 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-21 20:06:48,139 INFO    MainThread:663 [wandb_init.py:init():823] backend started and connected
+2025-04-21 20:06:48,157 INFO    MainThread:663 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-21 20:06:48,728 INFO    MainThread:663 [wandb_init.py:init():915] updated telemetry
+2025-04-21 20:06:48,731 INFO    MainThread:663 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-21 20:06:48,848 INFO    MainThread:663 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-21 20:06:49,267 INFO    MainThread:663 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-21 20:06:49,269 INFO    MainThread:663 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-21 20:06:49,269 INFO    MainThread:663 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-21 20:06:49,271 INFO    MainThread:663 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-21 20:06:49,278 INFO    MainThread:663 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-21 20:06:50,544 INFO    MainThread:663 [wandb_run.py:_config_callback():1327] config_cb None None {'num_classes': 8, 'classes': ['Human', 'Car', 'Truck', 'Van', 'Motorbike', 'Bicycle', 'Bus', 'Trailer']}
+2025-04-21 20:06:50,587 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:06:50,587 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:06:54,357 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:06:54,361 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:06:54,362 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:10:26,703 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:10:27,485 INFO    MainThread:663 [wandb_run.py:_config_callback():1327] config_cb None None {'augmentations': "Compose([\n  Resize(p=1.0, height=640, width=640, interpolation=1, mask_interpolation=0),\n  HorizontalFlip(p=0.5),\n  RandomBrightnessContrast(p=0.2, brightness_limit=(-0.2, 0.2), contrast_limit=(-0.2, 0.2), brightness_by_max=True, ensure_safe_range=False),\n  ShiftScaleRotate(p=0.5, shift_limit_x=(-0.05, 0.05), shift_limit_y=(-0.05, 0.05), scale_limit=(-0.09999999999999998, 0.10000000000000009), rotate_limit=(-10.0, 10.0), interpolation=1, border_mode=0, fill=0.0, fill_mask=0.0, rotate_method='largest_box', mask_interpolation=0),\n], p=1.0, bbox_params={'format': 'yolo', 'label_fields': ['labels'], 'min_area': 0.0, 'min_visibility': 0.1, 'min_width': 0.0, 'min_height': 0.0, 'check_each_transform': True, 'clip': True, 'max_accept_ratio': None}, keypoint_params=None, additional_targets={}, is_check_shapes=True)"}
+2025-04-21 20:10:28,136 INFO    MainThread:663 [wandb_run.py:_config_callback():1327] config_cb None None {'train_size': 6892, 'val_size': 1477, 'train_val_ratio': 4.666215301286392}
+2025-04-21 20:10:28,138 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:10:28,138 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:11:22,056 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:11:22,153 INFO    MainThread:663 [wandb_run.py:_config_callback():1327] config_cb None None {'augmentations': "Compose([\n  Resize(p=1.0, height=640, width=640, interpolation=1, mask_interpolation=0),\n  HorizontalFlip(p=0.5),\n  RandomBrightnessContrast(p=0.2, brightness_limit=(-0.2, 0.2), contrast_limit=(-0.2, 0.2), brightness_by_max=True, ensure_safe_range=False),\n  ShiftScaleRotate(p=0.5, shift_limit_x=(-0.05, 0.05), shift_limit_y=(-0.05, 0.05), scale_limit=(-0.09999999999999998, 0.10000000000000009), rotate_limit=(-10.0, 10.0), interpolation=1, border_mode=0, fill=0.0, fill_mask=0.0, rotate_method='largest_box', mask_interpolation=0),\n], p=1.0, bbox_params={'format': 'yolo', 'label_fields': ['labels'], 'min_area': 0.0, 'min_visibility': 0.1, 'min_width': 0.0, 'min_height': 0.0, 'check_each_transform': True, 'clip': True, 'max_accept_ratio': None}, keypoint_params=None, additional_targets={}, is_check_shapes=True)"}
+2025-04-21 20:11:22,162 INFO    MainThread:663 [wandb_run.py:_config_callback():1327] config_cb None None {'train_size': 6892, 'val_size': 1477, 'train_val_ratio': 4.666215301286392}
+2025-04-21 20:11:22,162 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:11:22,162 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:14:32,521 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:14:32,525 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:14:32,526 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:14:36,871 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:14:36,907 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:14:36,907 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:18:08,529 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:18:51,705 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:18:51,877 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:19:58,953 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:20:01,115 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:20:01,116 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:20:40,893 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:20:42,345 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:20:42,346 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:20:52,460 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:20:54,200 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:20:54,200 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:23:10,315 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:23:11,600 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:23:11,602 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:24:18,737 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:24:20,521 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:24:20,522 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:24:33,726 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:24:35,152 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:24:35,153 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:25:09,203 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:25:11,939 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:25:11,944 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:26:26,511 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:26:27,816 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:26:27,816 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:27:31,149 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:27:32,191 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:27:32,192 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:27:45,106 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:27:47,194 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:27:47,196 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:27:58,473 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:27:59,713 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:27:59,715 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:28:10,420 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:28:12,333 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:28:12,334 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:28:25,027 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:28:25,243 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:28:25,701 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-21 20:30:51,622 INFO    MainThread:663 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-21 20:30:51,973 INFO    MainThread:663 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-21 20:30:51,982 INFO    MainThread:663 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend

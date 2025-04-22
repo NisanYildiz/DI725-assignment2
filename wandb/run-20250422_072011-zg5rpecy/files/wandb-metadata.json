@@ -1,0 +1,39 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.12",
+  "startedAt": "2025-04-22T07:20:11.993521Z",
+  "program": "train-model.ipynb",
+  "codePath": "train-model.ipynb",
+  "email": "yildizz.nisan@gmail.com",
+  "root": "/content/drive/MyDrive/DI725/DI725-assignment2",
+  "host": "591d52e809c7",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "train-model.ipynb",
+  "colab": "https://colab.research.google.com/notebook#fileId=1qWZtkNmPKIuMb1SwRWCf_Nczk_V1G3b-",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "120942624768",
+      "used": "39744622592"
+    }
+  },
+  "memory": {
+    "total": "13608361984"
+  },
+  "cpu": {
+    "count": 1,
+    "countLogical": 2
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.4"
+}
